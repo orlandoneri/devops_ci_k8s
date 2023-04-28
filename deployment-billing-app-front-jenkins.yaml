@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: billing-app-front
-          image: oneri18/billingapp-frontend:0.0.1 
+          image: oneri18/billingapp-frontend 
           ports:
             - containerPort: 80
               name: billingappfport
